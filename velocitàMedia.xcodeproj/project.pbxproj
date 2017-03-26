@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B67D31C61E87F3FD006C8783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D31C51E87F3FD006C8783 /* AppDelegate.swift */; };
+		B67D31C81E87F3FD006C8783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D31C71E87F3FD006C8783 /* ViewController.swift */; };
+		B67D31CB1E87F3FD006C8783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67D31C91E87F3FD006C8783 /* Main.storyboard */; };
+		B67D31CE1E87F3FD006C8783 /* velocita_Media.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B67D31CC1E87F3FD006C8783 /* velocita_Media.xcdatamodeld */; };
+		B67D31D01E87F3FD006C8783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67D31CF1E87F3FD006C8783 /* Assets.xcassets */; };
+		B67D31D31E87F3FD006C8783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67D31D11E87F3FD006C8783 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B67D31C21E87F3FD006C8783 /* velocitàMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "velocitàMedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67D31C51E87F3FD006C8783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B67D31C71E87F3FD006C8783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B67D31CA1E87F3FD006C8783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B67D31CD1E87F3FD006C8783 /* velocita_Media.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = velocita_Media.xcdatamodel; sourceTree = "<group>"; };
+		B67D31CF1E87F3FD006C8783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B67D31D21E87F3FD006C8783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B67D31D41E87F3FD006C8783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B67D31BF1E87F3FD006C8783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B67D31B91E87F3FD006C8783 = {
+			isa = PBXGroup;
+			children = (
+				B67D31C41E87F3FD006C8783 /* velocitàMedia */,
+				B67D31C31E87F3FD006C8783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B67D31C31E87F3FD006C8783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B67D31C21E87F3FD006C8783 /* velocitàMedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B67D31C41E87F3FD006C8783 /* velocitàMedia */ = {
+			isa = PBXGroup;
+			children = (
+				B67D31C51E87F3FD006C8783 /* AppDelegate.swift */,
+				B67D31C71E87F3FD006C8783 /* ViewController.swift */,
+				B67D31C91E87F3FD006C8783 /* Main.storyboard */,
+				B67D31CF1E87F3FD006C8783 /* Assets.xcassets */,
+				B67D31D11E87F3FD006C8783 /* LaunchScreen.storyboard */,
+				B67D31D41E87F3FD006C8783 /* Info.plist */,
+				B67D31CC1E87F3FD006C8783 /* velocita_Media.xcdatamodeld */,
+			);
+			path = "velocitàMedia";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B67D31C11E87F3FD006C8783 /* velocitàMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67D31D71E87F3FD006C8783 /* Build configuration list for PBXNativeTarget "velocitàMedia" */;
+			buildPhases = (
+				B67D31BE1E87F3FD006C8783 /* Sources */,
+				B67D31BF1E87F3FD006C8783 /* Frameworks */,
+				B67D31C01E87F3FD006C8783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "velocitàMedia";
+			productName = "velocitàMedia";
+			productReference = B67D31C21E87F3FD006C8783 /* velocitàMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B67D31BA1E87F3FD006C8783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Giulio Tavella";
+				TargetAttributes = {
+					B67D31C11E87F3FD006C8783 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W6VS4VYA7Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B67D31BD1E87F3FD006C8783 /* Build configuration list for PBXProject "velocitàMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B67D31B91E87F3FD006C8783;
+			productRefGroup = B67D31C31E87F3FD006C8783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B67D31C11E87F3FD006C8783 /* velocitàMedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B67D31C01E87F3FD006C8783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67D31D31E87F3FD006C8783 /* LaunchScreen.storyboard in Resources */,
+				B67D31D01E87F3FD006C8783 /* Assets.xcassets in Resources */,
+				B67D31CB1E87F3FD006C8783 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B67D31BE1E87F3FD006C8783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67D31C81E87F3FD006C8783 /* ViewController.swift in Sources */,
+				B67D31C61E87F3FD006C8783 /* AppDelegate.swift in Sources */,
+				B67D31CE1E87F3FD006C8783 /* velocita_Media.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B67D31C91E87F3FD006C8783 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67D31CA1E87F3FD006C8783 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B67D31D11E87F3FD006C8783 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67D31D21E87F3FD006C8783 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B67D31D51E87F3FD006C8783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B67D31D61E87F3FD006C8783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B67D31D81E87F3FD006C8783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6VS4VYA7Q;
+				INFOPLIST_FILE = "velocitàMedia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giuliotavella.velocita-Media";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B67D31D91E87F3FD006C8783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6VS4VYA7Q;
+				INFOPLIST_FILE = "velocitàMedia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giuliotavella.velocita-Media";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B67D31BD1E87F3FD006C8783 /* Build configuration list for PBXProject "velocitàMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67D31D51E87F3FD006C8783 /* Debug */,
+				B67D31D61E87F3FD006C8783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67D31D71E87F3FD006C8783 /* Build configuration list for PBXNativeTarget "velocitàMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67D31D81E87F3FD006C8783 /* Debug */,
+				B67D31D91E87F3FD006C8783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B67D31CC1E87F3FD006C8783 /* velocita_Media.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B67D31CD1E87F3FD006C8783 /* velocita_Media.xcdatamodel */,
+			);
+			currentVersion = B67D31CD1E87F3FD006C8783 /* velocita_Media.xcdatamodel */;
+			path = velocita_Media.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B67D31BA1E87F3FD006C8783 /* Project object */;
+}
